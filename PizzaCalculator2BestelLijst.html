@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestel Lijst</title>
+    <link rel="stylesheet" href="PizzaCalculator2BestelLijst.css">
+</head>
+
+<body>
+    <h1>Bestellen</h1>
+    <a href="/PizzaCalculator2HomePage.html">Terug</a><br>
+
+    <label>Hoeveel kleine pizza's wil je?</label><br>
+    <label>Prijs = €5</label><br>
+    <input type="number" id="InputTextKlein" placeholder="bvb '2' "><br>
+    <button type="button" id="KleineButton">submit</button><br><br>
+
+
+    <label>Hoeveel medium pizza's wil je?</label><br>
+    <label>Prijs = €9</label><br>
+    <input type="number" id="InputTextMedium" placeholder="bvb '2' "><br>
+    <button type="button" id="MediumButton">submit</button><br><br>
+
+    <label>Hoeveel large pizza's wil je?</label><br>
+    <label>Prijs = €13</label><br>
+    <input type="number" id="InputTextLarge" placeholder="bvb '2' "><br>
+    <button type="button" id="LargeButton">submit</button><br><br>
+
+
+    <div id="Bestel-Lijst">
+        <p id="bestel-lijst">Bestel lijst</p>
+        <p id="KleinePizza">Aantal kleine pizza's = <span id="NumberKlein"> 0</span> </p>
+
+        <p id="MediumPizza">Aantal medium pizza's = <span id="NumberMedium"> 0</span> </p>
+
+        <p id="LargePizza">Aantal large pizza's = <span id="NumberLarge"> 0</span> </p>
+
+        <p id="PrijsTotaalText">Totale prijs = <span id="PrijsTotaalBerekend"> 0</span> </p>
+        <button type="button" id="Bevestigen">BEVESTIGEN</button>
+    </div>
+
+</body>
+<script src="/PizzaCalculator2BestelLijst.js"></script>
+
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(113, 231, 192);
+}
+
+#Bestel-Lijst {
+    background-color: rgb(0, 162, 255);
+    border: 1px black solid;
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#Bevestigen {
+    position: absolute
+}
